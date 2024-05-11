@@ -185,7 +185,6 @@ body {
 /*========================*/
 #footer {
   display: table;
-  max-width: 80em;
   margin: 0 auto;
   background: #ff7a00;
   width: 100%;
@@ -312,4 +311,61 @@ footer p {
         max-width: 20em;
         margin: 0 auto;
     }
+}
+/* ====== about us =========*/
+
+#hero-alt {
+  border-top: 12em solid #ffefe8;
+  height: 38em;
+  position: relative;
+  overflow: hidden;
+  background: black;
+}
+#hero-alt img {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0.85;
+  z-index: 1;
+}
+#hero-alt h1 {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0.5em;
+  font-size: 5em;
+  color: white;
+  opacity: 1;
+  z-index: 2;
+  text-shadow: 0em 0em 1em black;
+  max-width: 10em;
+  line-height: 1em;
+}
+
+
+#about-us {
+  padding: 5em 2em;
+  text-align: center;
+  background: #d39922;
+}
+#about-us article {
+  max-width: 60em;
+  margin: 0 auto;
+  background: white;
+  padding: 3em;
+}
+#about-us article p {
+  line-height: 2em;
+  font-size: 1.15em;
+  text-align: left;
+  color: #333;
+  margin-bottom: 2em;
+}
+#about-us a {
+background-color: #FF7A00;
+  color: white;
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 1.65em;
 }
