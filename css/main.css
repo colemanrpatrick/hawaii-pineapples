@@ -235,6 +235,7 @@ footer {
     text-transform: uppercase;
     font-weight: lighter;
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 #footer-logo {
     /* min-width: 20em; */
